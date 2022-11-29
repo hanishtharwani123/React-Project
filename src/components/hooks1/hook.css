@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 350px;
+}
+
+.button {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+p {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left: 65px;
+}

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+.header {
+    background-image: url(banner.webp);
+    background-repeat: no-repeat;
+    height: 58vh;
+    background-size: 100% 375px;
+    position: relative;
+    top: -94px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 83px;
+    text-align: center;
+    padding: 136px;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.main {
+    height: 75vh;
+    background-image: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+    position: relative;
+    top: -227px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .box {
+            height: 228px;
+            width: 403px;
+            background: white;
+            padding: 13px;
+            position: relative;
+            top: -100px;
+        } */
+
+.box img {
+    width: 324px;
+    position: relative;
+    left: -424px;
+    top: -17px;
+}
+
+p {
+    color: white;
+    font-size: 36px;
+    position: relative;
+    top: -362px;
+    /* left: -15px; */
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.box1 input {
+    width: 285px;
+    height: 35px;
+    position: relative;
+    top: -651px;
+    left: 573px;
+    border-radius: 4px;
+    background: #fff;
+    border: 2px solid white;
+}
+
+.button {
+    width: 122px;
+    height: 34px;
+    position: relative;
+    bottom: 636px;
+    left: 653px;
+    border-radius: 3px;
+    background: #fff;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(92, 79, 79);
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/* .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+        } */
+
+.fa {
+    position: relative;
+    bottom: 650px;
+    left: 539px;
+    margin: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #fff;
+    color: #8f8686;
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+}
+
+.fa:hover {
+    color: rgb(47, 214, 122);
+}
+
+.showItems {
+    margin-top: 3rem;
+    text-align: center;
+}
